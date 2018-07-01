@@ -1,6 +1,6 @@
 Name:           cerebro 
-Version:        0.7.2
-Release:        3 
+Version:        0.7.3
+Release:        1 
 Summary:        Cerebro is an open source elasticsearch web admin tool .
 Group:          Applications/Admin
 License:        GPL
@@ -85,6 +85,7 @@ case "$1" in
     # This is an un-installation.
     rm -rf /opt/cerebro
     rm -rf /var/run/cerebro/
+    rm -rf /etc/sysconfig/cerebro
     userdel --force cerebro 2> /dev/null; true
     groupdel cerebro 2> /dev/null; true
   ;;
