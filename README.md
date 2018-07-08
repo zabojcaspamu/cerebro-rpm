@@ -3,7 +3,7 @@ cerebro
 
 cerebro spec for rpm
 
-.. note::
+
 Option start cerebro in file /etc/sysconfig/cerebro
 
 for example:
