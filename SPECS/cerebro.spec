@@ -1,5 +1,5 @@
 Name:           cerebro 
-Version:        0.7.3
+Version:        0.8.1
 Release:        1 
 Summary:        Cerebro is an open source elasticsearch web admin tool .
 Group:          Applications/Admin
@@ -99,7 +99,7 @@ esac
 %files
 #%dir /opt/cerebro
 /opt/cerebro
-/etc/sysconfig/cerebro
+%config /etc/sysconfig/cerebro
 %{_unitdir}/cerebro.service
 %attr(-, cerebro, cerebro) /opt/cerebro/logs
 %attr(-, cerebro, cerebro) /opt/cerebro/data
