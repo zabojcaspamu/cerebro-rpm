@@ -1,5 +1,5 @@
 Name:           cerebro 
-Version:        0.8.3
+Version:        0.8.4
 Release:        1 
 Summary:        Cerebro is an open source elasticsearch web admin tool .
 Group:          Applications/Admin
