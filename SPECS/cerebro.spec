@@ -106,5 +106,7 @@ esac
 %attr(-, cerebro, cerebro) /var/run/cerebro
 
 %changelog 
+* Sat Jun 27 2019 zabojcaspamu.pl <zabojcaspamu.pl>
+- v 0.8.4
 * Fri Feb 16 2018 zabojcaspamu.pl <zabojcaspamu.pl> 
 - Cerebro to rpm
