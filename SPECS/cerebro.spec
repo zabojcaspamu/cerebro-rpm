@@ -1,5 +1,5 @@
 Name:           cerebro 
-Version:        0.8.4
+Version:        0.8.5
 Release:        1 
 Summary:        Cerebro is an open source elasticsearch web admin tool .
 Group:          Applications/Admin
@@ -106,6 +106,8 @@ esac
 %attr(-, cerebro, cerebro) /var/run/cerebro
 
 %changelog 
+* Sat Jan 11 2020 zabojcaspamu.pl <zabojcaspamu.pl>
+- v 0.8.5
 * Sat Jun 27 2019 zabojcaspamu.pl <zabojcaspamu.pl>
 - v 0.8.4
 * Fri Feb 16 2018 zabojcaspamu.pl <zabojcaspamu.pl> 
